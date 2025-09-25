@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Jira Sidebar Toggle",
+  "version": "1.0",
+  "description": "Makes People & Dates panels collapsible in JIRA.",
+  "permissions": ["scripting", "activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ]
+}
