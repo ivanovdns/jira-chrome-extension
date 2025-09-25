@@ -1,0 +1,1 @@
+This extension makes Jira ticket "Description" area full-width by collapsing "People & Dates" sidebar. It toggles to the original width by clicking "<<" button.
